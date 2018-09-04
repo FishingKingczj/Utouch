@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    tools:context="com.example.czj.utouch.start.LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:elevation="2dp"
+                android:src="@drawable/ic_user"
+                app:civ_border_color="@color/lightgray"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="用户名"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="175dp"
+            android:text="10\n我的活动"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="175dp"
+            android:text="10\n我的订阅"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <ImageView style="@style/Divider" />
+
+    <LinearLayout
+        style="@style/WrapLayout"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/user_subscribe"
+            style="@style/UserOptionsLayout">
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="性别     男"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="编辑" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/UserOptionsLayout">
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="专业     软件工程"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/UserOptionsLayout">
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="年级     大二"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/UserOptionsLayout">
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="简介     简介简简介简介简介简介简介简\n              介简介简介简介简介简介简介"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_ac_unit"
+        id="@+id/tab_subscribe"
+        title="@string/subscribe" />
+    <tab
+        icon="@drawable/ic_ac_unit"
+        id="@+id/tab_message"
+        title="@string/message" />
+    <tab
+        icon="@drawable/ic_ac_unit"
+        id="@+id/tab_add"
+        title="@string/add" />
+    <tab
+        icon="@drawable/ic_ac_unit"
+        id="@+id/tab_discover"
+        title="@string/discover" />
+    <tab
+        icon="@drawable/ic_ac_unit"
+        id="@+id/tab_user"
+        title="@string/user" />
+</tabs>

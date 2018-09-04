@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    tools:context="com.example.czj.utouch.user.MySubscribeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/user_subscribe_toolbar"
+        style="@style/MainToolBarStyle">
+
+        <TextView
+            style="@style/MainToolbarTitleStyle"
+            android:text="@string/mySubscribe" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout style="@style/WrapLayout">
+
+        <LinearLayout style="@style/UserOptionsLayout">
+
+            <ImageView
+                style="@style/UserIconLayout"
+                android:src="@drawable/ic_user" />
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="关注1" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="取消关注"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView style="@style/Divider" />
+
+        <LinearLayout style="@style/UserOptionsLayout">
+
+            <ImageView
+                style="@style/UserIconLayout"
+                android:src="@drawable/ic_user" />
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="关注1" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="取消关注"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView style="@style/Divider" />
+
+        <LinearLayout style="@style/UserOptionsLayout">
+
+            <ImageView
+                style="@style/UserIconLayout"
+                android:src="@drawable/ic_user" />
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="关注1" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="取消关注"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView style="@style/Divider" />
+
+        <LinearLayout style="@style/UserOptionsLayout">
+
+            <ImageView
+                style="@style/UserIconLayout"
+                android:src="@drawable/ic_user" />
+
+            <TextView
+                style="@style/UserOptionsText"
+                android:text="关注1" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="取消关注"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ImageView style="@style/Divider" />
+    </LinearLayout>
+</LinearLayout>

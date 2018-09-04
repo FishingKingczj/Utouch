@@ -1,0 +1,177 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- ToolBar -->
+    <style name="MainToolBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
+    </style>
+
+    <!-- ToolBar Title Text -->
+    <style name="MainToolbarTitleStyle" parent="Theme.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Edit Holder -->
+    <style name="MainEditTextHolderStyle" parent="Theme.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/grey</item>
+    </style>
+
+    <!-- Edit Text Input -->
+    <style name="MainEditInputStyle" parent="Theme.AppCompat">
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:saveEnabled">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+    </style>
+
+    <!-- Input Icon Pic -->
+    <style name="MainEditInputIconStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@mipmap/ic_launcher</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Long Button -->
+    <style name="MainLongButtonsStyle" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/main_button_selector</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/whitesmoke</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Text Style -->
+    <style name="MainTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Small Tip Text Style -->
+    <style name="MainSmallTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Center Wrap Layout -->
+    <style name="MainCenterWrapLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Horizontal Layout Style -->
+    <style name="MainHorizontalLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- User Layout Style -->
+    <style name="UserLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/user_row_selector</item>
+    </style>
+
+    <!-- User Head Layout Style -->
+    <style name="UserHeadLayout" parent="UserLayout">
+        <item name="android:padding">40dp</item>
+        <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
+        <item name="android:layout_marginBottom">75dp</item>
+    </style>
+
+    <!-- User Options Layout Style -->
+    <style name="UserOptionsLayout" parent="UserLayout">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <!-- User Text Style -->
+    <style name="UserText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- User Head Text Style -->
+    <style name="UserHeadText" parent="UserText">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <!-- User Options Text Style -->
+    <style name="UserOptionsText" parent="UserText">
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <!-- Arrow Style -->
+    <style name="UserArrow">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:src">@drawable/ic_arrow</item>
+    </style>
+
+    <!-- Icon Style-->
+    <style name="UserIconLayout">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <!-- Diver Style -->
+    <style name="Divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/lightgrey</item>
+    </style>
+
+    <!-- Wrap Layout Style -->
+    <style name="WrapLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginBottom">75dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+    </style>
+</resources>

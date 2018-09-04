@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">UTouch</string>
+
+    <!-- Start Strings -->
+    <string name="login">登陆</string>
+    <string name="phoneNumber">手机号码</string>
+    <string name="password">密码</string>
+    <string name="registerNewAccount">注册新账号</string>
+    <string name="forgetPassword">忘记密码</string>
+    <string name="resent">重新发送</string>
+    <string name="nextStep">下一步</string>
+    <string name="setPassword">设置密码</string>
+    <string name="checkPassword">确认密码</string>
+    <string name="identifyCode">验证码</string>
+    <string name="resetPassword">修改密码</string>
+    <string name="enterPhoneNumberError">请输入正确的手机号</string>
+    <string name="enterPasswordError">请输入正确的密码</string>
+    <string name="enterPasswordCharacterError">密码非法（字母开头，由数字、字母、不含空格的符号组成）</string>
+    <string name="enterIdentifyCodeError">请输入正确的验证码</string>
+    <string name="enterPasswordTooShortError">密码过短</string>
+    <string name="enterPasswordTooLongError">密码过长</string>
+    <string name="enterCheckPasswordError">两次密码不一致</string>
+    <string name="enterGradeError">请选择年级</string>
+    <string name="enterBirthdayError">请选择生日</string>
+    <string name="studentIdentify">身份验证</string>
+    <string name="studentCardNumber">校园卡号</string>
+    <string name="studentPassword">教务密码</string>
+    <string name="enterStudentCardNumberError">请输入正确的学生卡号</string>
+    <string name="enterStudentPasswordError">请输入正确的教务密码</string>
+    <string name="registerInformation">完善个人资料</string>
+    <string name="nickname">昵称</string>
+    <string name="major">专业</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="grade">年级</string>
+    <string name="birthday">生日</string>
+    <string name="chooseBirthday">请选择生日</string>
+
+    <!-- Subscribe Strings -->
+    <string name="subscribe">订阅</string>
+    <!-- Message Strings -->
+    <string name="message">消息</string>\
+    <!-- Add Strings -->
+    <string name="add">添加</string>
+    <!-- Discover Strings -->
+    <string name="discover">发现</string>
+    <!-- User Strings -->
+    <string name="user">我的</string>
+    <string name="mySubscribe">我的订阅</string>
+    <string name="myActivity">我的活动</string>
+    <string name="setting">设置</string>
+    <string name="off">注销</string>
+    <string name="title_activity_my_subscribe">MySubscribeActivity</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Intent Keys -->
+    <!-- Start -->
+    <string name="IK_FLAG">flag</string>
+    <string name="IK_USERNAME">username</string>
+    <string name="IK_PASSWORD">password</string>
+
+    <!-- Http Param Keys -->
+    <string name="PK_USERNAME">username</string>
+    <string name="PK_PASSWORD">password</string>
+</resources>
